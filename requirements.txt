@@ -8,3 +8,4 @@ geopy
 pyproj
 elevation
 geojson
+git+https://github.com/worldbank/GOSTrocks.git
