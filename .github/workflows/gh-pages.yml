@@ -35,7 +35,7 @@ jobs:
         run: npm install -g jupyter-book
       - name: Build HTML Assets
         working-directory: docs
-        run: jupyter-book build --html --execute .
+        run: jupyter-book build --html --execute
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
